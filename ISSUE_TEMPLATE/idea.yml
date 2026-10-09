@@ -1,0 +1,11 @@
+name: An idea
+description: A recipe, skill, pattern or improvement you'd like to see
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What it would do, and where you've seen it or would use it.
+    validations:
+      required: true

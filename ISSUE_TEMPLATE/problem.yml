@@ -1,0 +1,23 @@
+name: Something isn't working
+description: A demo, recipe, skill or page that's broken or confusing
+labels: ["bug"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: The page, file or skill, with a link if you have one.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you expected, what happened instead, and how to see it. A screenshot or the prompt you used helps most.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      description: For demos, for example "Safari on iPhone" or "Chrome on Windows".

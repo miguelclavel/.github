@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions about the interaction recipes
+    url: https://github.com/miguelclavel/interaction-recipes/discussions
+    about: Ask how a recipe works, or show what you made with one.
+  - name: Report a security problem privately
+    url: https://github.com/miguelclavel/.github/blob/main/SECURITY.md
+    about: Please don't open a public issue for security problems.
